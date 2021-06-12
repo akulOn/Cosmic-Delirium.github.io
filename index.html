@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link 
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" 
+        rel="stylesheet" 
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" 
+        crossorigin="anonymous">    
+    <link 
+        rel="stylesheet" 
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Cosmic Delirium</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+        <div class="container">
+            <a href="#" class="navbar-brand"><h3>Cosmic Delirium</h3></a>
+
+            <button 
+                class="navbar-toggler" 
+                type="button" 
+                data-bs-toggle="collapse"
+                data-bs-target="#navmenu"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto"> <!-- ms-auto - baci desno -->
+                    <li class="nav-item">
+                        <a href="#races" class="nav-link"><h5>Races</h5></a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a href="#classes" class="nav-link">Classes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#professions" class="nav-link">Professions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#equipment" class="nav-link">Equipment</a>
+                    </li> -->
+                    <li class="nav-item">
+                        <a href="#question" class="nav-link"><h5>Questions</h5></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#creators" class="nav-link"><h5>Creators</h5></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link"><h5>Contact</h5></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Showcase -->
+    <section class="bg-dark text-light p-5 p-lg-0 text-sm-center">
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-between">
+                <div>
+                    <h1>Start your journey</h1>
+                    <p class="lead">
+                        Character creation has been optimized
+                        with Mare's noob guide. Enjoy!
+                    </p>
+                    <button class="btn btn-secondary btn-lg">
+                        Begin
+                    </button>
+                </div>
+                <figure class="figure d-none d-sm-block">
+                    <img src="img/chinorri.png" class="figure-img img-fluid w-75" alt="...">
+                    <figcaption class="figure-caption">Proud Chinorri trader.</figcaption>
+                </figure>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="bg-secondary text-light p-5">
+        <div class="container">
+            <div class="d-md-flex justify-content-between align-items-center">
+                <h3 class="mb-3 mb-md-0">Sign up for our Newsletter</h3>
+                <div class="input-group news-input">
+                    <input type="text" class="form-control" placeholder="Enter e-mail">
+                    <button class="btn btn-dark btn-lg" type="button">Button</button>
+                  </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Boxes -->
+    <section class="p-5">
+        <div class="container">
+            <div class="row text-center g-4"> <!-- g = gap -->
+                <!--add columns on mediu screens-->
+                <div class="col-md">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-laptop"></i>
+                            </div>
+                            <h3 class="card-title mb-3">Stories</h3>
+                            <p class="card-text">
+                                Short stories to get you familiar with our world and our way of doing things.
+                            </p>
+                            <a href="*" class="btn btn-secondary">Read</a>
+                        </div>
+                    </div>
+                </div> 
+                <div class="col-md">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-person-square"></i>
+                            </div>
+                            <h3 class="card-title mb-3">Characters</h3>
+                            <p class="card-text">
+                                Notable characters that have influenced our universe in more ways then you can imagine.
+                            </p>
+                            <a href="*" class="btn btn-secondary">Read</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-globe"></i>
+                            </div>
+                            <h3 class="card-title mb-3">Planets</h3>
+                            <p class="card-text">
+                                From all the vastness of space and time, we have choosen several planets for you to view.
+                            </p>
+                            <a href="*" class="btn btn-secondary">Read</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Avtyrrians sections -->
+    <section id="races" class="p-5">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md text-center">
+                    <figure class="figure d-none d-sm-block">
+                        <img src="img/avtyrrians.png" class="figure-img img-fluid w-75" alt="...">
+                        <figcaption class="figure-caption">Avtyrrians council.</figcaption>
+                    </figure>
+                </div>
+                <div class="col-md p-5">
+                    <h2>Avtyrrians</h2>
+                    <p class="lead">
+                        Avtyrrians are bipedal amphibians that make their home on oceanic worlds where most of their population lives
+                        in deep underwater cities. Their average height is around 1.5 meters. Due to their low-testosterone levels
+                        they do not have much muscle mass and are quite frail in nature. Do not let this fool you though. Avtyrrians
+                        are the only species to have a 100% active psychic population, and their minds can be dangerous opponents when necessary.
+                    </p>
+                    <a href="#" class="btn btn-light mt-3">
+                        <i class="bi bi-chevron-right"></i> Read More
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Panasians sections -->
+    <section class="p-5 bg-dark text-light">
+        <div class="container">
+            <div class="row align-items-center justify-content-between"> 
+                <div class="col-md p-5">
+                    <h2>Panasians</h2>
+                    <p class="lead">
+                        The open plains and thick bioluminescent fungi jungles of Panabuna shaped the Panasians into true survivors.
+                        They are bipedal reptilians which sport 4 muscular arms attached to impressive spines. Their 4 eyes grant them
+                        greater sight and an ability to see in the dark. Panasians were always nocturnal in nature, preferring to hunt
+                        larger mammals that would graze on the native fungi which, while common on the surface, were abundant in the gigantic
+                        caverns that were below the earth. The same caverns where future Panasian cities would grow and thrive.
+                    </p>
+                    <a href="#" class="btn btn-light mt-3">
+                        <i class="bi bi-chevron-right"></i> Read More
+                    </a>
+                </div>
+                <div class="col-md text-center">
+                    <figure class="figure d-none d-sm-block">
+                        <img src="img/panasians.png" class="figure-img img-fluid w-50" alt="...">
+                        <figcaption class="figure-caption">Panasians warrior.</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Question Accordian -->
+    <section id="question" class="p-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Your Questions</h2>
+            <div class="accordion accordion-flush" id="questions">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-one">
+                      Where are we from?
+                    </button>
+                  </h2>
+                  <div id="question-one" class="accordion-collapse collapse" data-bs-parent="#questions">
+                    <div class="accordion-body">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem illum, facilis sint corrupti esse culpa ipsam quis.
+                        Hic voluptates laboriosam sapiente. Suscipit expedita sapiente necessitatibus minus laboriosam, harum earum nulla autem,
+                        sint facere dolorem reprehenderit natus, optio consectetur labore consequuntur molestiae cupiditate accusamus tempore quaerat.
+                        Culpa accusantium iusto dolor adipisci?
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-two">
+                        What do I need to know to play?
+                      </button>
+                    </h2>
+                    <div id="question-two" class="accordion-collapse collapse" data-bs-parent="#questions">
+                      <div class="accordion-body">
+                          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem illum, facilis sint corrupti esse culpa ipsam quis.
+                          Hic voluptates laboriosam sapiente. Suscipit expedita sapiente necessitatibus minus laboriosam, harum earum nulla autem,
+                          sint facere dolorem reprehenderit natus, optio consectetur labore consequuntur molestiae cupiditate accusamus tempore quaerat.
+                          Culpa accusantium iusto dolor adipisci?
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-three">
+                        How much does it cost?
+                      </button>
+                    </h2>
+                    <div id="question-three" class="accordion-collapse collapse" data-bs-parent="#questions">
+                      <div class="accordion-body">
+                          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem illum, facilis sint corrupti esse culpa ipsam quis.
+                          Hic voluptates laboriosam sapiente. Suscipit expedita sapiente necessitatibus minus laboriosam, harum earum nulla autem,
+                          sint facere dolorem reprehenderit natus, optio consectetur labore consequuntur molestiae cupiditate accusamus tempore quaerat.
+                          Culpa accusantium iusto dolor adipisci?
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Creators -->
+    <section id="creators" class="p-5 bg-secondary">
+        <div class="container">
+            <h2 class="text-center text-white">Our Creators</h2>
+            <p class="lead text-center text-white mb-5">
+                God help us all if these men have created us.
+            </p>
+            <div class="row g-4">
+                <div class="col-md-12 col-lg-6">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <figure class="figure d-none d-sm-block">
+                                <img src="/img/creators/cross.png" class="figure-img img-fluid w-75" alt="...">
+                            </figure>
+                            <h3 class="card-title mb-3">Cross</h3>
+                            <p class="card-text">
+                                Hey, hey folks. I am Marko Krstić (Call me Cross though), a 22-year-old English student from Serbia. I've been playing
+                                TTRPGs for about...12 years? Jesus Christ.I've also dabbled in writing for a couple of years, with a lot of unfinished
+                                books, short stories and essays that haunt me in my sleep. Great stuff. I also dabbled in stand-up comedy in my youth for
+                                2 years, but then I realized that doing stand-up in English in rural Serbia was a great way to get heart disease. I am
+                                currently the lead creative designer of Cosmic Delirium, a little project that has been growing for the last 4 years,
+                                increasingly so in the past 2, with the help of several people I have been lucky enough to call friends, and other names
+                                which I can't show on instagram.
+                            </p>
+                            <a href="*" class="bi bi-twitter text-dark mx-1"></a>
+                            <a href="*" class="bi bi-facebook text-dark mx-1"></a>
+                            <a href="*" class="bi bi-instagram text-dark mx-1"></a>
+                            <a href="*" class="bi bi-linkedin text-dark mx-1"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-6">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <figure class="figure d-none d-sm-block">
+                                <img src="/img/creators/v.png" class="figure-img img-fluid w-75" alt="...">
+                            </figure>
+                            <h3 class="card-title mb-3">V</h3>
+                            <p class="card-text">
+                                Heya! My name is Vladan Djordjevic and I'm but a simple assistant/consultant on this project of ours. Unlike Cross,
+                                I started playing TTRPG's in college and the rest is history. I decided to keep my introduction short since my photo
+                                is, for the lack of a better word, garbage. I wish you all a great day!
+                            </p>
+                            <a href="*" class="bi bi-twitter text-dark mx-1"></a>
+                            <a href="*" class="bi bi-facebook text-dark mx-1"></a>
+                            <a href="*" class="bi bi-instagram text-dark mx-1"></a>
+                            <a href="*" class="bi bi-linkedin text-dark mx-1"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Map -->
+    <section id="contact" class="p-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md">
+                    <h2 class="text-center mb-4">Contact Info</h2>
+                    <ul class="list-group list-group-flush lead">
+                        <li class="list-group-item">
+                            <span class="fw-bold">Main Location:</span> censored
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Phone:</span>  1234567890
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Email:</span> administrator@bellaria.corp
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md text-center">
+                    <figure class="figure d-none d-sm-block">
+                        <img src="img/bellaria.png" class="figure-img img-fluid" alt="...">
+                        <figcaption class="figure-caption">Home.</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="p-5 bg-dark text-white text-center position-relative">
+        <div class="container">
+            <p class="lead">Copyright &copy; 2021 Bellaria Corp.</p>
+            <a href="#" class="position-absolute bottom-0 end-0 p-5">
+                <i class="bi bi-arrow-up-circle h1"></i>
+            </a>
+        </div>
+    </footer>
+
+    <script 
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" 
+        crossorigin="anonymous">
+    </script>
+</body>
+</html>
